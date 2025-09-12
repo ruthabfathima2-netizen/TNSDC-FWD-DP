@@ -1,15 +1,365 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Digital portfolio </title>
-  
+<!-- ===== HTML Content ===== -->        
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
+<header>        
 
-<!-- partial -->
-  
-</body>
-</html>
+  <h1>Ruthab Fathima V.M</h1>        
+
+  <p>2nd B.Sc Artificial Intelligence</p>        
+
+</header>        
+
+        
+
+<nav>        
+
+  <a href="#about">About</a>        
+
+  <a href="#education">Education</a>        
+
+  <a href="#skills">Skills</a>        
+
+  <a href="#projects">Projects</a>        
+
+  <a href="#hobbies">Hobbies</a>        
+
+  <a href="#contact">Contact</a>        
+
+</nav>        
+
+        
+
+<section id="about" class="about">        
+
+  <h2>About Me</h2>        
+
+  <p>        
+
+    Hi! I’m <b>Ruthab Fathima V.M</b>, a 2nd year B.Sc AI student. I enjoy exploring ideas,        
+
+    solving problems, and blending creativity with technology.        
+
+  </p>        
+
+</section>        
+
+        
+
+<section id="education" class="education">        
+
+  <h2>Education</h2>        
+
+  <div class="box">B.Sc Artificial Intelligence – 2nd Year (Ongoing)</div>        
+
+  <div class="box">Higher Secondary School – Hasnath-e-Jaria Girls Higher Secondary School</div>        
+
+</section>        
+
+        
+
+<section id="skills" class="skills">        
+
+  <h2>Skills</h2>        
+
+  <div class="box">Canva (Design & Presentations)</div>        
+
+  <div class="box">Microsoft Office (Word, Excel, PowerPoint)</div>        
+
+  <div class="box">Python and C (Basic Programming)</div>        
+
+  <div class="box">HTML & CSS (Web Design)</div>        
+
+  <div class="box">Communication & Teamwork</div>        
+
+</section>        
+
+        
+
+<section id="projects" class="projects">        
+
+  <h2>Projects</h2>        
+
+  <div class="box">Digital Portfolio Website (this site!)</div>        
+
+  <div class="box">AI Chatbot using Python</div>        
+
+  <div class="box">Poster & Presentation Designs in Canva</div>        
+
+</section>        
+
+        
+
+<section id="hobbies" class="hobbies">        
+
+  <h2>Hobbies</h2>        
+
+  <div class="box">📖 Reading</div>        
+
+  <div class="box">🎨 Drawing</div>        
+
+  <div class="box">🎮 Playing Games</div>        
+
+</section>        
+
+        
+
+<section id="contact" class="contact">        
+
+  <h2>Contact</h2>        
+
+  <div class="box">        
+
+    <p>Email: <a href="mailto:ruthabfathima2@gmail.com">ruthabfathima2@gmail.com</a></p>        
+
+    <p>Phone: +91 9543213647</p>        
+
+    <p>Address: Ambur</p>        
+
+    </p>        
+
+  </div>        
+
+</section>        
+
+        
+
+<!-- ===== CSS Styles ===== -->        
+
+<style>        
+
+  body {        
+
+    margin: 0;        
+
+    font-family: Arial, sans-serif;        
+
+    line-height: 1.6;        
+
+    background: #fafafa;        
+
+  }        
+
+        
+
+  header {        
+
+    background: linear-gradient(135deg, lavender, lightblue);        
+
+    color: #222;        
+
+    padding: 20px;        
+
+    text-align: center;        
+
+  }        
+
+        
+
+  header h1 {        
+
+    margin: 0;        
+
+    font-size: 2rem;        
+
+  }        
+
+        
+
+  header p {        
+
+    margin: 5px 0 0;        
+
+    font-size: 1.1rem;        
+
+  }        
+
+        
+
+  nav {        
+
+    display: flex;        
+
+    justify-content: center;        
+
+    background: #f0e6ff;        
+
+    position: sticky;        
+
+    top: 0;        
+
+    z-index: 1000;        
+
+    border-bottom: 2px solid #ddd;        
+
+    flex-wrap: wrap;        
+
+  }        
+
+        
+
+  nav a {        
+
+    color: #333;        
+
+    padding: 14px 20px;        
+
+    text-decoration: none;        
+
+    font-weight: bold;        
+
+    transition: 0.3s;        
+
+  }        
+
+        
+
+  nav a:hover,        
+
+  nav a.active {        
+
+    background: #d9b3ff;        
+
+    color: white;        
+
+    border-radius: 5px;        
+
+  }        
+
+        
+
+  section {        
+
+    padding: 20px;        
+
+    margin: 15px auto;        
+
+    border-radius: 10px;        
+
+    max-width: 900px;        
+
+  }        
+
+        
+
+  h2 {        
+
+    text-align: center;        
+
+    margin-bottom: 10px;        
+
+  }        
+
+        
+
+  .about { background: #e6e6fa; }        
+
+  .education { background: #d4f8d4; }        
+
+  .skills { background: #ffe5b4; }        
+
+  .projects { background: #fff3b0; }        
+
+  .hobbies { background: #e8d4f8; }        
+
+  .contact { background: #ffcccb; }        
+
+        
+
+  .box {        
+
+    background: white;        
+
+    margin: 10px 0;        
+
+    padding: 10px;        
+
+    border-radius: 8px;        
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);        
+
+  }        
+
+        
+
+  .contact a {        
+
+    color: blue;        
+
+    text-decoration: none;        
+
+  }        
+
+        
+
+  .contact a:hover {        
+
+    text-decoration: underline;        
+
+  }        
+
+</style>        
+
+        
+
+<!-- ===== JavaScript ===== -->        
+
+<script>        
+
+  // Smooth scrolling when clicking navbar links        
+
+  document.querySelectorAll("nav a").forEach(anchor => {        
+
+    anchor.addEventListener("click", function (e) {        
+
+      e.preventDefault();        
+
+      document.querySelector(this.getAttribute("href")).scrollIntoView({        
+
+        behavior: "smooth"        
+
+      });        
+
+    });        
+
+  });        
+
+        
+
+  // Highlight active section in navbar        
+
+  window.addEventListener("scroll", () => {        
+
+    const sections = document.querySelectorAll("section");        
+
+    const navLinks = document.querySelectorAll("nav a");        
+
+        
+
+    sections.forEach(sec => {        
+
+      const top = window.scrollY;        
+
+      const offset = sec.offsetTop - 80;        
+
+      const height = sec.offsetHeight;        
+
+      const id = sec.getAttribute("id");        
+
+        
+
+      if (top >= offset && top < offset + height) {        
+
+        navLinks.forEach(link => link.classList.remove("active"));        
+
+        document        
+
+          .querySelector(`nav a[href*=${id}]`)        
+
+          .classList.add("active");        
+
+      }        
+
+    });        
+
+  });        
+
+</script>
